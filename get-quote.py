@@ -9,8 +9,6 @@ def primary():
   last = 14
   rnd = random.randint(0, last)
   print(quotes[rnd])
-  rnd = random.randint(0, last)
-  print(quotes[rnd])
-
+  print('nueva linea')
 if __name__== "__main__":
   primary()
